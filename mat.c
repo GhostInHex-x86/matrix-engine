@@ -102,7 +102,7 @@ int main() {
 	switch (op) {
 		case 1: {
 				if (rs1!=rs2 || cs1!=cs2){
-					printf("\n[!] Invalid dimentions to perform addition!\n");
+					printf("\n[!] Invalid dimensions to perform addition!\n");
 					exit(EXIT_FAILURE);
 				}
 				int (*c)[cs1] = malloc(rs1 * sizeof *c);
@@ -115,7 +115,7 @@ int main() {
 			}
 		case 2: {
 				if (rs1!=rs2 || cs1!=cs2){
-					printf("\n[!] Invalid dimentions to perform subtraction!\n");
+					printf("\n[!] Invalid dimensions to perform subtraction!\n");
 					exit(EXIT_FAILURE);
 				}
 				int (*c)[cs1] = malloc(rs1 * sizeof *c);
